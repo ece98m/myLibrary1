@@ -6,6 +6,7 @@ package student;import java.io.FileNotFoundException;
  import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import studentNameGenerator.NameGenerator;
 /**
  *
@@ -13,7 +14,7 @@ import studentNameGenerator.NameGenerator;
  */
 public class studentFactory {
     
-    public Student getStudent() { //burada her bu fonk çağırıldığında yeni öğrenci üretmiş oluyoruz
+    public static Student getStudent() { //burada her bu fonk çağırıldığında yeni öğrenci üretmiş oluyoruz
 			
 			NameGenerator NG = new NameGenerator();
 			
@@ -32,39 +33,43 @@ public class studentFactory {
 		return name.split(" ");
 	}
     
-    public String[][] studentFactory(){
-    String[][] studentData=new String[100][2];
+    public static ArrayList<Student> createStudent(){ //bir object arrayliste 100 adet öğrenci oluşturduk
+     
+    ArrayList<Student> students=new ArrayList();    
+        
+         for (int i=0; i<100; i++){
     
-    for (int i=0; i<100; i++){
+        Student newStudent=getStudent();
+        students.add(newStudent);
+    }    
+        
+          for (Student element : students) {
+            System.out.println(element);
+        }
     
-            studentData[i][0]=getStudent().getStudentName();
-            studentData[i][1]=getStudent().getStudentSurname();
-            studentData[i][2]=Integer.toString(getStudent().getID());
-    }
-    
-    return studentData;
+    return students;
             }  
 	
     
-    public  void writeOnFile() {
-        String[][] data = studentFactory();
-        String filename = "bu.txt";
-        
-        try {
+    public static void writeOnFile() {
+       String filename = "C:\\Users\\Burak\\Desktop\\myLibrary1\\bu.txt";
+       
+try {
             FileWriter writer = new FileWriter(filename);
             
-            for (String[] row : data) {
-                for (String value : row) {
-                    writer.write(value + ",");
-                }
-                writer.write("\n");
+            // Write each object in the ArrayList to the file
+            for (Object element : createStudent()) {
+                writer.write(element.toString() + "\n");
             }
             
+            // Close the FileWriter
             writer.close();
-            System.out.println("Data written to file: " + filename);
+            System.out.println("File written successfully.");
         } catch (IOException e) {
-            System.out.println("An error occurred: " + e.getMessage());
             e.printStackTrace();
         }
-    }
+
+    
 }
+}
+

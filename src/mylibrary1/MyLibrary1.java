@@ -20,12 +20,20 @@ import java.util.Arrays;
 import java.util.Scanner;
 import static mylibrary1.LibraryUtility.AlphabeticalBookListbyTitle;
 import student.Student;
+import student.studentFactory;
+import static student.studentFactory.createStudent;
+import static student.studentFactory.getStudent;
+
+import static student.studentFactory.writeOnFile;
+
 
 
 public class MyLibrary1 {
    //  to handle exceptions include throws
 public static void main(String[] args) throws FileNotFoundException{
 
+    
+  
  System.out.println(listOfBooks().size());
   System.out.println(listOfBooks());
   
@@ -72,9 +80,9 @@ public static void main(String[] args) throws FileNotFoundException{
               
                    break;
                 case 3:
-                                
-              searchingStudent();
-               
+            
+                    writeOnFile();
+              
                break;
              
                 case 4:
