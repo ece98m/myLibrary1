@@ -1,43 +1,7 @@
 
 *********
 student ID:1
-Name of student:Kevin Beck
-
-*********
-student ID:1
-Name of student:Lowell Ernst
-
-*********
-student ID:1
-Name of student:Steve Silva
-
-*********
-student ID:1
-Name of student:Kevin Jones
-
-*********
-student ID:1
-Name of student:Jesse Bean
-
-*********
-student ID:1
-Name of student:Soul Brown
-
-*********
-student ID:1
-Name of student:Jesse Murphy
-
-*********
-student ID:1
-Name of student:Kevin Silva
-
-*********
-student ID:1
-Name of student:Michael Brown
-
-*********
-student ID:1
-Name of student:Michael Silva
+Name of student:Steve Power
 
 *********
 student ID:1
@@ -45,87 +9,7 @@ Name of student:Owen Jones
 
 *********
 student ID:1
-Name of student:Oscar Power
-
-*********
-student ID:1
-Name of student:Michael Beck
-
-*********
-student ID:1
-Name of student:Hope Power
-
-*********
-student ID:1
-Name of student:Zack Bean
-
-*********
-student ID:1
-Name of student:Steffany Bean
-
-*********
-student ID:1
-Name of student:Steve Hill
-
-*********
-student ID:1
-Name of student:Owen Power
-
-*********
-student ID:1
-Name of student:Jesse Power
-
-*********
-student ID:1
-Name of student:Soul Smith
-
-*********
-student ID:1
-Name of student:Kenyon Smith
-
-*********
-student ID:1
-Name of student:Hope Beck
-
-*********
-student ID:1
-Name of student:Jesse Hill
-
-*********
-student ID:1
-Name of student:Oscar Hill
-
-*********
-student ID:1
-Name of student:Owen Bean
-
-*********
-student ID:1
-Name of student:Hardy Silva
-
-*********
-student ID:1
-Name of student:Lowell Bean
-
-*********
-student ID:1
-Name of student:Owen Smith
-
-*********
-student ID:1
-Name of student:Jesse Silva
-
-*********
-student ID:1
-Name of student:Steffany Honest
-
-*********
-student ID:1
-Name of student:Hope Beck
-
-*********
-student ID:1
-Name of student:Hope Ernst
+Name of student:Hardy Smith
 
 *********
 student ID:1
@@ -133,51 +17,27 @@ Name of student:Hardy Ernst
 
 *********
 student ID:1
-Name of student:Steffany Bean
+Name of student:Hope Honest
 
 *********
 student ID:1
-Name of student:Steffany Power
+Name of student:Hope Carvalho
 
 *********
 student ID:1
-Name of student:Owen Jones
+Name of student:Kenyon Murphy
 
 *********
 student ID:1
-Name of student:Steve Bean
+Name of student:Michael Bean
 
 *********
 student ID:1
-Name of student:Owen Dean
+Name of student:Kevin Carvalho
 
 *********
 student ID:1
-Name of student:Owen Honest
-
-*********
-student ID:1
-Name of student:Zack Beck
-
-*********
-student ID:1
-Name of student:Soul Carvalho
-
-*********
-student ID:1
-Name of student:Steve Brown
-
-*********
-student ID:1
-Name of student:Soul Jones
-
-*********
-student ID:1
-Name of student:Jesse Murphy
-
-*********
-student ID:1
-Name of student:Kenyon Power
+Name of student:Zack Bean
 
 *********
 student ID:1
@@ -185,15 +45,11 @@ Name of student:Jesse Beck
 
 *********
 student ID:1
-Name of student:Hope Brown
+Name of student:Kevin Silva
 
 *********
 student ID:1
-Name of student:Oscar Dean
-
-*********
-student ID:1
-Name of student:Zack Dean
+Name of student:Kevin Brown
 
 *********
 student ID:1
@@ -201,7 +57,83 @@ Name of student:Soul Power
 
 *********
 student ID:1
-Name of student:Hope Brown
+Name of student:Lowell Ernst
+
+*********
+student ID:1
+Name of student:Kevin Power
+
+*********
+student ID:1
+Name of student:Kevin Smith
+
+*********
+student ID:1
+Name of student:Jesse Carvalho
+
+*********
+student ID:1
+Name of student:Hope Carvalho
+
+*********
+student ID:1
+Name of student:Hardy Hill
+
+*********
+student ID:1
+Name of student:Owen Bean
+
+*********
+student ID:1
+Name of student:Hope Bean
+
+*********
+student ID:1
+Name of student:Owen Bean
+
+*********
+student ID:1
+Name of student:Oscar Bean
+
+*********
+student ID:1
+Name of student:Soul Brown
+
+*********
+student ID:1
+Name of student:Kevin Murphy
+
+*********
+student ID:1
+Name of student:Steffany Brown
+
+*********
+student ID:1
+Name of student:Jesse Smith
+
+*********
+student ID:1
+Name of student:Zack Jones
+
+*********
+student ID:1
+Name of student:Zack Honest
+
+*********
+student ID:1
+Name of student:Kevin Silva
+
+*********
+student ID:1
+Name of student:Steve Bean
+
+*********
+student ID:1
+Name of student:Soul Beck
+
+*********
+student ID:1
+Name of student:Zack Jones
 
 *********
 student ID:1
@@ -213,39 +145,59 @@ Name of student:Lowell Carvalho
 
 *********
 student ID:1
-Name of student:Jesse Brown
+Name of student:Kevin Beck
 
 *********
 student ID:1
-Name of student:Steve Dean
+Name of student:Jesse Power
 
 *********
 student ID:1
-Name of student:Hope Honest
+Name of student:Oscar Beck
 
 *********
 student ID:1
-Name of student:Steve Hill
+Name of student:Steve Beck
 
 *********
 student ID:1
-Name of student:Michael Silva
+Name of student:Steve Carvalho
 
 *********
 student ID:1
-Name of student:Owen Ernst
+Name of student:Zack Honest
 
 *********
 student ID:1
-Name of student:Owen Dean
+Name of student:Zack Jones
 
 *********
 student ID:1
-Name of student:Hope Brown
+Name of student:Lowell Bean
 
 *********
 student ID:1
-Name of student:Hardy Silva
+Name of student:Lowell Honest
+
+*********
+student ID:1
+Name of student:Steve Ernst
+
+*********
+student ID:1
+Name of student:Owen Jones
+
+*********
+student ID:1
+Name of student:Steffany Smith
+
+*********
+student ID:1
+Name of student:Lowell Honest
+
+*********
+student ID:1
+Name of student:Steffany Ernst
 
 *********
 student ID:1
@@ -253,123 +205,39 @@ Name of student:Jesse Carvalho
 
 *********
 student ID:1
+Name of student:Jesse Hill
+
+*********
+student ID:1
+Name of student:Kenyon Dean
+
+*********
+student ID:1
 Name of student:Jesse Honest
 
 *********
 student ID:1
-Name of student:Steve Dean
+Name of student:Kenyon Dean
 
 *********
 student ID:1
-Name of student:Michael Jones
+Name of student:Steffany Dean
 
 *********
 student ID:1
-Name of student:Michael Carvalho
+Name of student:Kenyon Smith
 
 *********
 student ID:1
-Name of student:Kevin Silva
+Name of student:Lowell Silva
 
 *********
 student ID:1
-Name of student:Jesse Murphy
+Name of student:Michael Murphy
 
 *********
 student ID:1
-Name of student:Hope Smith
-
-*********
-student ID:1
-Name of student:Jesse Silva
-
-*********
-student ID:1
-Name of student:Oscar Jones
-
-*********
-student ID:1
-Name of student:Hope Brown
-
-*********
-student ID:1
-Name of student:Steffany Honest
-
-*********
-student ID:1
-Name of student:Hope Honest
-
-*********
-student ID:1
-Name of student:Oscar Ernst
-
-*********
-student ID:1
-Name of student:Soul Bean
-
-*********
-student ID:1
-Name of student:Soul Silva
-
-*********
-student ID:1
-Name of student:Kenyon Murphy
-
-*********
-student ID:1
-Name of student:Owen Bean
-
-*********
-student ID:1
-Name of student:Steffany Jones
-
-*********
-student ID:1
-Name of student:Oscar Murphy
-
-*********
-student ID:1
-Name of student:Steffany Murphy
-
-*********
-student ID:1
-Name of student:Owen Hill
-
-*********
-student ID:1
-Name of student:Jesse Murphy
-
-*********
-student ID:1
-Name of student:Hardy Hill
-
-*********
-student ID:1
-Name of student:Hope Smith
-
-*********
-student ID:1
-Name of student:Kenyon Hill
-
-*********
-student ID:1
-Name of student:Kevin Silva
-
-*********
-student ID:1
-Name of student:Steffany Jones
-
-*********
-student ID:1
-Name of student:Michael Brown
-
-*********
-student ID:1
-Name of student:Soul Dean
-
-*********
-student ID:1
-Name of student:Hardy Beck
+Name of student:Soul Brown
 
 *********
 student ID:1
@@ -377,24 +245,156 @@ Name of student:Jesse Beck
 
 *********
 student ID:1
-Name of student:Steffany Silva
+Name of student:Owen Jones
 
 *********
 student ID:1
-Name of student:Michael Smith
+Name of student:Hope Murphy
 
 *********
 student ID:1
-Name of student:Jesse Honest
+Name of student:Jesse Beck
 
 *********
 student ID:1
-Name of student:Steffany Hill
+Name of student:Steve Ernst
 
 *********
 student ID:1
-Name of student:Lowell Murphy
+Name of student:Steffany Jones
 
 *********
 student ID:1
-Name of student:Owen Dean
+Name of student:Kevin Smith
+
+*********
+student ID:1
+Name of student:Lowell Brown
+
+*********
+student ID:1
+Name of student:Kenyon Brown
+
+*********
+student ID:1
+Name of student:Steve Smith
+
+*********
+student ID:1
+Name of student:Steve Jones
+
+*********
+student ID:1
+Name of student:Lowell Ernst
+
+*********
+student ID:1
+Name of student:Kenyon Beck
+
+*********
+student ID:1
+Name of student:Hope Brown
+
+*********
+student ID:1
+Name of student:Owen Honest
+
+*********
+student ID:1
+Name of student:Soul Honest
+
+*********
+student ID:1
+Name of student:Soul Brown
+
+*********
+student ID:1
+Name of student:Owen Bean
+
+*********
+student ID:1
+Name of student:Steve Smith
+
+*********
+student ID:1
+Name of student:Hardy Hill
+
+*********
+student ID:1
+Name of student:Owen Brown
+
+*********
+student ID:1
+Name of student:Zack Smith
+
+*********
+student ID:1
+Name of student:Kenyon Dean
+
+*********
+student ID:1
+Name of student:Jesse Brown
+
+*********
+student ID:1
+Name of student:Hardy Jones
+
+*********
+student ID:1
+Name of student:Jesse Bean
+
+*********
+student ID:1
+Name of student:Owen Hill
+
+*********
+student ID:1
+Name of student:Steffany Dean
+
+*********
+student ID:1
+Name of student:Jesse Carvalho
+
+*********
+student ID:1
+Name of student:Soul Carvalho
+
+*********
+student ID:1
+Name of student:Hope Power
+
+*********
+student ID:1
+Name of student:Hardy Carvalho
+
+*********
+student ID:1
+Name of student:Steffany Honest
+
+*********
+student ID:1
+Name of student:Steffany Brown
+
+*********
+student ID:1
+Name of student:Kenyon Murphy
+
+*********
+student ID:1
+Name of student:Zack Bean
+
+*********
+student ID:1
+Name of student:Hope Honest
+
+*********
+student ID:1
+Name of student:Jesse Murphy
+
+*********
+student ID:1
+Name of student:Hardy Power
+
+*********
+student ID:1
+Name of student:Kenyon Ernst

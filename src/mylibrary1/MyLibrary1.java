@@ -81,8 +81,8 @@ public static void main(String[] args) throws FileNotFoundException{
                    break;
                 case 3:
             
-                    writeOnFile();
               
+            searchingStudent();
                break;
              
                 case 4:
@@ -172,7 +172,7 @@ public static void main(String[] args) throws FileNotFoundException{
 
 
 public static void searchingBook() throws FileNotFoundException {
-    ArrayList<String> BookTitles=new ArrayList<String>();
+    
      System.out.println("Please enter the name of Book you are looking for"); 
     Scanner scan=new Scanner(System.in);
     String bookName=scan.nextLine().toLowerCase();
@@ -182,25 +182,25 @@ public static void searchingBook() throws FileNotFoundException {
          
              System.out.println("Aradığınız kitap kütühanemizde bulunmaktadır" + listOfBooks().get(i));
          break;}
-         else if ((listOfBooks().size()==i )&& (!bookName.equals(listOfBooks().get(i).getNameOfBook().toLowerCase()))){
+         else if ((listOfBooks().size()-1==i )&& (!bookName.equals(listOfBooks().get(i).getNameOfBook().toLowerCase()))){
              System.out.println("Aradığınız kitap kütüphanede bulunmamaktadır");}
          
     
     }  
 		}
 public static void searchingStudent() throws FileNotFoundException {
-    ArrayList<String> BookTitles=new ArrayList<String>();
-     System.out.println("Please enter the name of Book you are looking for"); 
-    Scanner scan=new Scanner(System.in);
-    String bookName=scan.nextLine().toLowerCase();
    
-    for (int i=0; i<listOfBooks().size(); i++){
-         if (bookName.equals(listOfBooks().get(i).getNameOfBook().toLowerCase() )){
+     System.out.println("Please enter the name of student you are looking for"); 
+    Scanner scan=new Scanner(System.in);
+    String studentName=scan.nextLine().toLowerCase();
+    writeOnFile();
+    for (int i=0; i<createStudent().size(); i++){
+         if (studentName.equals(createStudent().get(i).getStudentName().toLowerCase() )){
          
-             System.out.println("Aradığınız kitap kütühanemizde bulunmaktadır" + listOfBooks().get(i));
+             System.out.println("Aradığınız öğrenci kütüphanemize üyedir" + createStudent().get(i));
          break;}
-         else if ((listOfBooks().size()==i )&& (!bookName.equals(listOfBooks().get(i).getNameOfBook().toLowerCase()))){
-             System.out.println("Aradığınız kitap kütüphanede bulunmamaktadır");}
+         else if ((createStudent().size()-1==i )&& (!studentName.equals(createStudent().get(i).getStudentName().toLowerCase()))){
+             System.out.println("Aradığınız öğrenci kayıtlarımızda bulunmamaktadır");}
          
     
     }  

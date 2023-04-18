@@ -43,9 +43,9 @@ public class studentFactory {
         students.add(newStudent);
     }    
         
-          for (Student element : students) {
-            System.out.println(element);
-        }
+//          for (Student element : students) {
+//            System.out.println(element);
+//        }
     
     return students;
             }  
