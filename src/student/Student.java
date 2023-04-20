@@ -13,23 +13,24 @@ public class Student {
     private String studentSurname;
     private int ID ;
    // private int adress;
-    private int idStarter=0;
+    private static int lastStudentID=0;
+    private int studentID;
     
     public Student(String studentName, String studentSurname) {
+        lastStudentID++;
         this.studentName = studentName;
         this.studentSurname = studentSurname;
-        this.ID = generateID();
+        this.studentID=lastStudentID;
      
     }
-     private int generateID() {
-             this.idStarter++;
 
-                 return this.idStarter;
-                }
+      public int getID() {
+        return this.studentID;
+    }
  
    public String toString() {
 		
-		return  "\n*********\nstudent ID:" + this.ID+"\nName of student:" + this.studentName+ " " +this.studentSurname.toString();
+		return  "\n*********\nstudent ID:" + this.studentID+"\nName of student:" + this.studentName+ " " +this.studentSurname.toString();
 	}
  
     public String getStudentName() {
@@ -40,10 +41,8 @@ public class Student {
         return studentSurname;
     }
     
-     public int getID() {
-        return ID;
-    }
-    
+ 
+
     
  
 }

@@ -11,20 +11,24 @@ package mylibrary1;
 // import necessary packages
 
 
-import Book.Book;
-import static Book.BookFactory.BookFactory;
+
 import static Book.BookFactory.listOfBooks;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
+
 import java.util.Scanner;
 import static mylibrary1.LibraryUtility.AlphabeticalBookListbyTitle;
+//import static mylibrary1.Loan.borrowBook;
 import student.Student;
 import student.studentFactory;
-import static student.studentFactory.createStudent;
-import static student.studentFactory.getStudent;
 
-import static student.studentFactory.writeOnFile;
+import static student.studentFactory.AlphabeticalStudentListbyName;
+import static student.studentFactory.createStudent;
+
+
+
 
 
 
@@ -33,11 +37,17 @@ public class MyLibrary1 {
 public static void main(String[] args) throws FileNotFoundException{
 
     
-  
+    
  System.out.println(listOfBooks().size());
   System.out.println(listOfBooks());
   
-   MyLibrary1 myRugbyClub = new MyLibrary1 ();
+   MyLibrary1 myLibrary = new MyLibrary1 ();
+         // We printed the studentList to a text file.
+     Loan myLoan=new Loan();
+     
+     studentFactory myFactory = new studentFactory();
+       myFactory.writeOnFile();
+   
    
    int myInput; 
      boolean valid=true;
@@ -86,13 +96,13 @@ public static void main(String[] args) throws FileNotFoundException{
                break;
              
                 case 4:
-                    System.out.println(listOfBooks());  
+                   AlphabeticalStudentListbyName(); 
                    
                break;
+               //hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
                   case 5:
-                                
-              System.out.println(listOfBooks());  
-               
+                myLoan.borrowBook();
+              // borrowBook();
                break;
              
                 case 6:
@@ -156,7 +166,7 @@ public static void main(String[] args) throws FileNotFoundException{
 
 
 	
-        private ArrayList<Student>  AlphabeticalStudentListbyTitle;
+        private ArrayList<Student> AlphabeticalStudentListbyTitle;
         private ArrayList<Student> WaitingList;
  
 	public MyLibrary1() {
@@ -164,13 +174,13 @@ public static void main(String[] args) throws FileNotFoundException{
           
 		this.AlphabeticalStudentListbyTitle= new ArrayList<Student>();
 		this.WaitingList= new ArrayList<Student>();
-		
+	        
          
              
 	} 
 
 
-
+  
 public static void searchingBook() throws FileNotFoundException {
     
      System.out.println("Please enter the name of Book you are looking for"); 
@@ -193,7 +203,7 @@ public static void searchingStudent() throws FileNotFoundException {
      System.out.println("Please enter the name of student you are looking for"); 
     Scanner scan=new Scanner(System.in);
     String studentName=scan.nextLine().toLowerCase();
-    writeOnFile();
+  
     for (int i=0; i<createStudent().size(); i++){
          if (studentName.equals(createStudent().get(i).getStudentName().toLowerCase() )){
          
@@ -205,6 +215,11 @@ public static void searchingStudent() throws FileNotFoundException {
     
     }  
 		}
+
+
+
+     
+
   
 
 

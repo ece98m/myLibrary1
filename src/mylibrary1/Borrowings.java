@@ -5,6 +5,7 @@
 package mylibrary1;
 
 import Book.Book;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import student.Student;
 
@@ -37,10 +38,20 @@ public class Borrowings {
         return issuedDate;
     }
 
+    
+      public String getFormattedIssuedDate() {
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+        return formatter.format(issuedDate);
+    }
+      
     public Date getDateReturned() {
         return dateReturned;
     }
 
+       public String getFormattedReturnedDate() {
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+        return formatter.format(dateReturned);
+    }
     public void setBook(Book book) {
         this.book = book;
     }
