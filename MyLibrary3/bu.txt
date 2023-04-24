@@ -1,0 +1,40 @@
+
+*********
+student ID:1
+Name of student:Oscar Dean
+
+*********
+student ID:2
+Name of student:Soul Jones
+
+*********
+student ID:3
+Name of student:Kevin Bean
+
+*********
+student ID:4
+Name of student:Hardy Carvalho
+
+*********
+student ID:5
+Name of student:Kenyon Brown
+
+*********
+student ID:6
+Name of student:Zack Brown
+
+*********
+student ID:7
+Name of student:Lowell Bean
+
+*********
+student ID:8
+Name of student:Kevin Bean
+
+*********
+student ID:9
+Name of student:Kenyon Dean
+
+*********
+student ID:10
+Name of student:Jesse Bean
